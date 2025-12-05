@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Fancify Shamcify</title>
+		<!-- link to your script file here -->
+		
+	</head>
+
+	<body>
+		<nav>
+			<a href="../Assignment2/index.html">Home</a>
+			<a href="../Assignment5/fancifymytext.html">Assignment 5</a>
+		</nav>
+		<h1>Fancify my Text</h1>
+		<!--Step 1: Add UI controls-->
+			<!--A field for users to enter large (multi-line) amounts of text;
+			 4 rows by 30 columns in size; wrap it in a bordered field 
+			 set box w/ the label "Text"-->
+		<fieldset style="border: 1px solid black;">
+			<legend>Text</legend>
+			<textarea id="textBox" rows="4" cols="30"></textarea>
+		</fieldset>
+		<fieldset style="border: 1px solid black;">
+			<legend>Fancify</legend>
+			<button id="biggerButton">Bigger!</button>
+			<br>
+			<input type="radio" id="fancyRadio" name="textStyle" value="fancy">
+			<label for="FancyShmancy">FancyShmancy</label>
+			<br>
+			<input type="radio" id="boringRadio" name='textStyle' value="boring">
+			<label for="BoringBetty">BoringBetty</label>
+			<br>
+			<button id="mooButton">Moo</button>
+		</fieldset>
+		<script src="../Resources/js/fancifymytext.js"></script>
+
+		<!-- Your UI controls go here -->
+		
+	</body>
+</html>
